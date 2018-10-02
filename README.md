@@ -3,7 +3,7 @@
 
 A Python script to download Audio, Video and  Playlist of audio and video files just by providing the URL and get them at the best quality.
 
-### For Asynchrnous go [here](https://github.com/greed2411/YDL/tree/ydl-async)
+>  For **Asynchrnous** go [here](https://github.com/greed2411/YDL/tree/ydl-async)
 
 Tested and developed on ***Windows 7 32-bit SP1***, ***Ubuntu GNOME 16.04 LTS***, ***Ubuntu 16.10*** and ***macOS Sierra 10.12.5***
 
@@ -21,24 +21,24 @@ For Light weight script without error handling, run `ydl-lite.py`, you can skip 
   * [sys](https://docs.python.org/3/library/sys.html) - For exiting out of the script
   * [bs4](http://beautiful-soup-4.readthedocs.io/en/latest/) - For scraping content while the user is connected to the internet or not, in case of wifi-connected , but not logged in
   * [lxml](http://lxml.de/#download) - For parsing the HTML document
-  
+
   If you don't have either of the last two packages install them using,
-  
+
   ```pip installation
   pip install bs4
   ```
-  
+
   and 
-  
+
   ```pip installation
   pip install lxml
   ```
   ***If you don't have pip3 or pip go or dunno which one to use go [here](https://stackoverflow.com/a/6587528)***
-  
+
 ### Steps to follow for installing dependencies
   * On Windows 
      1. Install `youtube-dl` via cmd
-        
+       
         ```youtube-dl installation
         pip install youtube-dl
         ```
@@ -63,9 +63,10 @@ For Light weight script without error handling, run `ydl-lite.py`, you can skip 
     
     * On macOS
       1. Install `youtube-dl` via terminal
-         
+
             ```youtube-dl installation
-         brew install youtube-dl
+               brew install youtube-dl
+            ```
          ```
       2. Install `ffmpeg`
       
@@ -73,9 +74,9 @@ For Light weight script without error handling, run `ydl-lite.py`, you can skip 
          brew install ffmpeg
          ```
       3. Run the scrpipt `ydl.py` in the terminal or the lightweight version `ydl-lite.py`.
-      
+
        ### Possible errors: 
-      
+
          It sometimes asks you to install 'pyattr' or the 'xattr' module, even GNU's 'attr' module by throwing an error
 
          Simple solution : 
@@ -83,7 +84,7 @@ For Light weight script without error handling, run `ydl-lite.py`, you can skip 
          ```
          pip install xattr
          ```
-      
+
 ### References
   * [wikiHow to Install FFmpeg on Windows](http://www.wikihow.com/Install-FFmpeg-on-Windows) - Helped me.
   * [Installing FFmpeg on all kind of environments](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
@@ -91,7 +92,7 @@ For Light weight script without error handling, run `ydl-lite.py`, you can skip 
   * [YouTube download using youtube-dl embedded with Python - 2017](http://www.bogotobogo.com/VideoStreaming/YouTube/youtube-dl-embedding.php) pretty useful summary of important stuff mentioned from [youtube-dl's documentation](https://github.com/rg3/youtube-dl)
   * [Improper documentation for Python](https://github.com/rg3/youtube-dl/blob/master/youtube_dl/YoutubeDL.py) - You are all alone on the sea to understand the code and try if you want to use the package 'youtube_dl' , gave up trying to use the classes.
   * for format conversion and extracting audio followed [this](http://www.slashgeek.net/2016/06/24/5-youtube-dl-tips-might-not-know/)
-  
+
 ### Screenshots
 
 ![Youtube link of playlist for audio downloads URL](/../screenshots/4.png?raw=true "Ubuntu")
